@@ -4,6 +4,7 @@
   background: red;
   font-family: roboto;
   color: white;
+  border-bottom: 1px solid #ccc;
 }
 
 .header a {
@@ -18,17 +19,14 @@
 
 .header-nav {
   margin: 0 auto;
-  width: 900px
-}
-
-.header-nav {
-  border-left: solid 1px white;
-  border-right: solid 1px white;
+  width: 900px;
+  border-left: solid 1px #ccc;
+  border-right: solid 1px #ccc;
 }
 
 .header-logo{
   float: left;
-  border-right: solid 1px white;
+  border-right: solid 1px #ccc;
   font-weight: 700;
 
 }
@@ -44,7 +42,7 @@
 
 .header-list > li {
   float: left;
-  border-left: solid 1px white;
+  border-left: solid 1px #ccc;
 }
 
 .header-list > li > a {

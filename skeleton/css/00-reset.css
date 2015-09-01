@@ -47,3 +47,7 @@ input[type="submit"] {
   content: "";
   display: block;
 }
+
+body {
+  background: #eee;
+}
