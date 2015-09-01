@@ -9,7 +9,7 @@
   border-right: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
   position: relative;
-  font-family: roboto;
+  /*font-family: roboto;*/
 }
 
 .content:before {
