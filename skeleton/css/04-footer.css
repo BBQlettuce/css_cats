@@ -1,11 +1,35 @@
 /* PHASE 4: Footer */
 
 .footer {
-
+  width: 900px;
+  height: 60px;
+  display: block;
+  background: white;
+  margin: 0 auto;
+  border-radius: 0 0 5px 5px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  color: #aaa;
+  font-family: roboto;
+  font-size: 14px;
 }
 
 .footer-copyright {
-
+  float: left;
+  padding: 20px;
 }
 
-.footer-list
+.footer-list {
+  float: right;
+}
+
+.footer-list > li {
+  display: block;
+  float: left;
+  padding: 20px 20px 20px 0;
+}
+
+.footer-list a:hover {
+  color: black;
+}
