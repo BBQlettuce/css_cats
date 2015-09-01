@@ -1,0 +1,65 @@
+/* PHASE 1: Header */
+.header {
+  width: 100%;
+  background: red;
+  font-family: roboto;
+  color: white;
+}
+
+.header a {
+  display: block;
+  padding: 10px 20px 10px 20px;
+}
+
+.header a:hover {
+  background: black;
+  color: white;
+}
+
+.header-nav {
+  margin: 0 auto;
+  width: 900px
+}
+
+.header-nav {
+  border-left: solid 1px white;
+  border-right: solid 1px white;
+}
+
+.header-logo{
+  float: left;
+  border-right: solid 1px white;
+  font-weight: 700;
+
+}
+
+.header-logo > a {
+
+}
+
+.header-list {
+  float: right;
+  font-weight: 400;
+}
+
+.header-list > li {
+  float: left;
+  border-left: solid 1px white;
+}
+
+.header-list > li > a {
+
+}
+
+
+/*<header class="header">
+  <nav class="header-nav">
+    <a href="#" class="header-logo">App Academy Friends</a>
+
+    <ul class="header-list">
+      <li><a href="#">Notifications</a></li>
+      <li><a href="#">Profile</a></li>
+      <li><a href="#">Settings</a></li>
+    </ul>
+  </nav>
+</header>*/
