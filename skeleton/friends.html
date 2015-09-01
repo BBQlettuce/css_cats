@@ -79,7 +79,7 @@
       </section>
 
       <section class="thumbs group">
-        <ul class="thumbs-list">
+        <ul class="thumbs-list group">
           <li><a href="#" class="thumb" title="Sennacy"><img src="../shared/img/cat.jpg" alt="cat" /></a></li>
           <li><a href="#" class="thumb" title="Jonathan"><img src="../shared/img/cat.jpg" alt="cat" /></a></li>
           <li><a href="#" class="thumb" title="Tommy"><img src="../shared/img/cat.jpg" alt="cat" /></a></li>
@@ -94,7 +94,23 @@
     </section>
 
     <section class="content-main">
+      <section class="new-post-section group">
+        <a href="#" class="thumb" title="Sennacy"><img src="../shared/img/cat.jpg" alt="cat" /></a>
 
+        <form class="new-post-form" method="post">
+          <span class="input">
+            <label for="post-title" class="post-label">Post Title</label>
+            <input id="post-title" type="text" name="post[title]" value="Lorem Ipsum">
+            <label for="post-body" class="post-label">Post Body</label>
+            <textarea id="post-body" name="post[body]">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</textarea>
+          </span>
+          <span class="submit">
+            <button class="submit-post-button">Post To Wall</button>
+            or
+            <button class="cancel-post">Cancel</button>
+          </span>
+        </form>
+      </section>
     </section>
   </main>
 

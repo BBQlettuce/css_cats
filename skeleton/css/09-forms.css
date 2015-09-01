@@ -1,1 +1,82 @@
 /* PHASE 9: Forms */
+
+.new-post-section {
+  display: block;
+  width: 620px;
+  margin: 20px auto;
+
+}
+
+.new-post-form {
+  float: right;
+  width: 540px;
+  background: #eee;
+  border: 1px #ccc solid;
+  border-radius: 5px;
+  position: relative;
+  min-height: 355px;
+}
+
+.input {
+  display: block;
+  padding: 20px;
+}
+
+.input label {
+  font-weight: 700;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input input {
+  display: block;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 480px;
+  padding: 10px;
+}
+
+.input textarea {
+  display: block;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  width: 480px;
+  height: 140px;
+  padding: 10px;
+}
+
+.submit {
+  position: absolute;
+  display: block;
+  bottom: 15px;
+  left: 20px;
+}
+
+.submit-post-button {
+  background: #0c0;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 700;
+  box-shadow: 0 3px #070;
+  margin-right: 5px;
+}
+
+.submit-post-button:hover {
+  background: #0b0;
+  cursor: pointer;
+}
+
+.cancel-post {
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+.cancel-post:hover {
+  color: red;
+  cursor: pointer;
+}
