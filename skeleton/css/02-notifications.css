@@ -10,24 +10,31 @@
   color: white;
 }
 
+.notifications:hover {
+  background: black;
+  color: white;
+}
+
 .notifications:hover .notification-list {
   display: block;
   position: absolute;
   width: 235px;
   font-size: 14px;
   background: white;
-  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
+  border-radius: 0 0 5px 5px;
 }
 
-.notification-list > li > a:hover {
+.notification-list a:hover {
   background: #eee;
   color: black;
 }
 
-.notification-list > li > a {
-  border-bottom: 1px solid #ccc;
+.notification-list a {
+  border-top: 1px solid #ccc;
+  display: block;
 }
 
 .notifications {
@@ -35,11 +42,9 @@
 }
 
 .notification-list {
-
   display: none;
 }
 
 .notification-list > li {
   color: black;
-
 }
